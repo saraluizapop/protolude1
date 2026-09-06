@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.jfcartier.collider-event-system": {
+      "version": "https://github.com/jfcmontmorency/collider-event-system.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.inputsystem": "1.19.0"
+      },
+      "hash": "cabbd0d2afbeb339c24a0a0c7b62906c64077c77"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
       "depth": 0,
@@ -64,8 +73,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.14.2",
-      "depth": 0,
+      "version": "1.19.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
